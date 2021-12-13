@@ -1,0 +1,27 @@
+{
+  "name": "babel_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsonjmv/babel_webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edsonjmv/babel_webpack/issues"
+  },
+  "homepage": "https://github.com/edsonjmv/babel_webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^5.65.0",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
